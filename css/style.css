@@ -19,7 +19,7 @@
   }
 body {
     font-family: 'Gilroy';
-    background-color: red;
+    background-color: #FFF;
     color: #000;
 }
 .container {
@@ -28,7 +28,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    display:flex;
+    display:none;
     justify-content: center;
     align-items: center;
     z-index: 4444;

@@ -1,7 +1,4 @@
 @media(max-width: 375px) {
-    body {
-        background-color: rgb(72, 0, 255);
-    }
     .container {
         justify-content: bottom;
         align-items: flex-end;
