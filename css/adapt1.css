@@ -1,0 +1,41 @@
+@media(max-width: 375px) {
+    body {
+        background-color: rgb(72, 0, 255);
+    }
+    .container {
+        justify-content: bottom;
+        align-items: flex-end;
+    }
+    .modal {
+        width:375px;
+        height:460px;
+        padding: 20px 15px 0px 15px;
+        bottom: 0;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .modal-title {
+        width: 100%;
+    }
+    .modal-content {
+        margin-bottom: 25px;
+    }
+    h1 {
+        font-size: 26px;
+        line-height: 27.56px;
+        margin-bottom: 15px;
+        width:221px;
+    }
+    input, textarea {
+        width: 345px;
+        height: 55px;
+    }
+    p, .textarea1 {
+        display:none;
+    }
+    .textarea2 {
+        display:block;
+    }
+    .close {
+        margin: -15px 5px 0px 0px;
+    }
+}

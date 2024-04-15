@@ -1,0 +1,50 @@
+@media(max-width: 768px) {
+    body {
+        background-color: green;
+    }
+    .modal {
+        width:430px;
+        height:540px;
+        padding: 30px 30px 0px 30px;
+    }
+    h1 {
+        font-size: 36px;
+        line-height: 38.16px;
+        margin-bottom: 21px;
+        width: 314px;
+    }
+    h3 {
+        font-size: 16px;
+        line-height: 21.6px;
+        width: 350px;
+    }
+    .modal-content {
+        margin: 30px 0px 10px 0px;
+    }
+    input, textarea {
+        width: 370px;
+        height: 55px;
+        margin-bottom: 15px; 
+    }
+    .ch1 {
+        display:flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .modal-check {
+        flex-direction: column;
+    }
+    .modal-text {
+        margin-left: 0px;
+    }
+    .close-btn1 {
+        display:none;
+    }
+    .close-btn2 {
+        display:flex;
+    }
+    .close {
+        background-color: #FFF;
+        margin: 0px 13px 0px 0px;
+    }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adapt.css">
+    <link rel="stylesheet" href="css/adapt1.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>Modal</title>
+</head>
+<body>
+    <div class="btn-modal">Нажмите сюда</div>
+    <div class="container">
+        <form action="" method="post" class="modal">
+            <div class="close">
+                <div class="close-btn1">
+                    <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.9688 5.03125L5.03125 17.9688" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M17.9688 17.9688L5.03125 5.03125" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                </div>
+                <div class="close-btn2">
+                    <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.9688 5.03125L5.03125 17.9688" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M17.9688 17.9688L5.03125 5.03125" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>                        
+                </div>
+            </div>
+            <div class="modal-title">
+                <h1>Заполните заявку на консультацию</h1>
+                <h3>Наш специалист свяжется с Вами и ответит на любые вопросы</h3>
+            </div>
+            <div class="modal-content">
+                <div class="ch1">
+                    <input type="text" name="name" placeholder="Имя" class="input-text"/>
+                    <input type="text" name="tel" placeholder="Телефон" class="input-text"/>
+                </div>
+                <div class="ch2">
+                    <textarea type="text" name="question" placeholder="Напишите, какой у Вас вопрос?" class="input-text textarea1"></textarea>
+                    <textarea type="text" name="question" placeholder="Какой у Вас вопрос?" class="input-text textarea2"></textarea>
+                </div>
+            </div>
+            <div class="modal-check">
+                <div class="modal-button">
+                    <input type="submit" name="submit" value="Получить консультацию" class="btn">
+                </div>
+                <div class="modal-text">
+                    <p>Я соглашаюсь на <span>обработку персональных данных</span></p>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
