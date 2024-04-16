@@ -8,6 +8,7 @@
         height:460px;
         padding: 20px 15px 0px 15px;
         bottom: 0;
+        position: absolute;
         border-radius: 20px 20px 0px 0px;
     }
     .modal-title {
